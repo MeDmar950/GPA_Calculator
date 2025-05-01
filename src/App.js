@@ -82,25 +82,27 @@ function App() {
   });
 
   const calculateGrade = (mark) => {
-    if (mark >= 90) return 'A';
-    if (mark >= 85) return 'A-';
-    if (mark >= 80) return 'B+';
-    if (mark >= 75) return 'B';
-    if (mark >= 70) return 'B-';
-    if (mark >= 65) return 'C+';
-    if (mark >= 60) return 'C';
-    if (mark >= 56) return 'C-';
-    if (mark >= 53) return 'D+';
-    if (mark >= 50) return 'D';
+    if (mark >= 96) return 'A+';
+    if (mark >= 92) return 'A';
+    if (mark >= 88) return 'A-';
+    if (mark >= 84) return 'B+';
+    if (mark >= 80) return 'B';
+    if (mark >= 76) return 'B-';
+    if (mark >= 72) return 'C+';
+    if (mark >= 68) return 'C';
+    if (mark >= 64) return 'C-';
+    if (mark >= 60) return 'D+';
+    if (mark >= 55) return 'D';
+    if (mark >= 50) return 'D-';
     return 'F';
   };
 
   const getGradePoints = (grade) => {
     const points = {
-      'A': 4.0, 'A-': 3.7,
-      'B+': 3.3, 'B': 3.0, 'B-': 2.7,
-      'C+': 2.3, 'C': 2.0, 'C-': 1.7,
-      'D+': 1.3, 'D': 1.0,
+      'A+': 4.0, 'A': 3.7, 'A-': 3.4,
+      'B+': 3.2, 'B': 3.0, 'B-': 2.8,
+      'C+': 2.6, 'C': 2.4, 'C-': 2.2,
+      'D+': 2.0, 'D': 1.5, 'D-': 1.0,
       'F': 0.0
     };
     return points[grade] || 0;

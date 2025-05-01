@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GPA_Calculator/static/css/main.b5746ca3.css",
-    "main.js": "/GPA_Calculator/static/js/main.6d79e168.js",
+    "main.js": "/GPA_Calculator/static/js/main.45dc1989.js",
     "static/js/453.96842e3a.chunk.js": "/GPA_Calculator/static/js/453.96842e3a.chunk.js",
     "index.html": "/GPA_Calculator/index.html",
     "main.b5746ca3.css.map": "/GPA_Calculator/static/css/main.b5746ca3.css.map",
-    "main.6d79e168.js.map": "/GPA_Calculator/static/js/main.6d79e168.js.map",
+    "main.45dc1989.js.map": "/GPA_Calculator/static/js/main.45dc1989.js.map",
     "453.96842e3a.chunk.js.map": "/GPA_Calculator/static/js/453.96842e3a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5746ca3.css",
-    "static/js/main.6d79e168.js"
+    "static/js/main.45dc1989.js"
   ]
 }
